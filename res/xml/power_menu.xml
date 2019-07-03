@@ -29,13 +29,13 @@
         android:key="advanced_reboot_in_power_menu"
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="screenshot_in_power_menu"
         android:title="@string/global_actions_screenshot_title"
         android:summary="@string/global_actions_screenshot_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="emergency_in_power_menu"

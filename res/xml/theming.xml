@@ -67,7 +67,7 @@
         android:title="@string/icon_shape_title"
         android:entries="@array/icon_shape_entries"
         android:entryValues="@array/icon_shape_values"
-        android:defaultValue="0" />
+        android:defaultValue="4" />
 
     <PreferenceCategory
         android:key="power_menu"
