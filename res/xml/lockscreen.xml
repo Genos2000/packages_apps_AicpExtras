@@ -88,7 +88,13 @@
               android:summaryOn="@string/fprint_sucess_vib_summary_on"
               android:summaryOff="@string/fprint_sucess_vib_summary_off"
               android:defaultValue="true" />
-
+                  
+          <com.aicp.gear.preference.SystemSettingSwitchPreference  
+              android:key="fp_unlock_keystore" 
+              android:title="@string/fp_unlock_keystore_title" 
+              android:summary="@string/fp_unlock_keystore_summary" 
+              android:defaultValue="false" />
+    
           <com.aicp.gear.preference.GlobalSettingSwitchPreference
               android:key="lockscreen_enable_power_menu"
               android:title="@string/lockscreen_enable_power_menu_title"
